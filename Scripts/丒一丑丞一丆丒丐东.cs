@@ -1,0 +1,119 @@
+using UnityEngine;
+private sealed class 丂丐丏七丅丝业丅专.丒一丑丞一丆丒丐东 : IEnumerable<SimpleJSON.且丐上一丝业不专上>, IEnumerable, IEnumerator<SimpleJSON.且丐上一丝业不专上>, IEnumerator, IDisposable
+{
+    // Fields
+    private int 丗丏丅丕丆世丁专丟;
+    private SimpleJSON.且丐上一丝业不专上 丒上七丌业七丟与丐;
+    private int 丈世三丐万且丅上丈;
+    public SimpleJSON.丂丐丏七丅丝业丅专 丝且与丝丒丟万丁专;
+    private System.Collections.Generic.List.Enumerator<SimpleJSON.且丐上一丝业不专上> 与业丕业业业丌丟丐;
+    
+    // Properties
+    private SimpleJSON.且丐上一丝业不专上 System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.Current { get; }
+    private object System.Collections.IEnumerator.Current { get; }
+    
+    // Methods
+    public 丂丐丏七丅丝业丅专.丒一丑丞一丆丒丐东(int 丗丏丅丕丆世丁专丟)
+    {
+        this.丗丏丅丕丆世丁专丟 = 丗丏丅丕丆世丁专丟;
+        this.丈世三丐万且丅上丈 = System.Environment.CurrentManagedThreadId;
+    }
+    private void System.IDisposable.Dispose()
+    {
+        if(this.丗丏丅丕丆世丁专丟 != 1)
+        {
+                if(this.丗丏丅丕丆世丁专丟 != 3)
+        {
+                return;
+        }
+        
+        }
+        
+        this.一世丕丕业且且丅丌();
+    }
+    private bool MoveNext()
+    {
+        var val_2;
+        List.Enumerator<SimpleJSON.且丐上一丝业不专上> val_3;
+        List.Enumerator<SimpleJSON.且丐上一丝业不专上> val_6;
+        int val_7;
+        if(this.丗丏丅丕丆世丁专丟 == 0)
+        {
+            goto label_1;
+        }
+        
+        if(this.丗丏丅丕丆世丁专丟 != 1)
+        {
+            goto label_16;
+        }
+        
+        val_6 = this.与业丕业业业丌丟丐;
+        this.丗丏丅丕丆世丁专丟 = -3;
+        goto label_3;
+        label_1:
+        this.丗丏丅丕丆世丁专丟 = 0;
+        List.Enumerator<T> val_1 = this.丝且与丝丒丟万丁专.丏丕丗丒丒丛一丕丟.GetEnumerator();
+        val_6 = this.与业丕业业业丌丟丐;
+        mem[1152921541558093216] = val_2;
+        this.丗丏丅丕丆世丁专丟 = -3;
+        this.与业丕业业业丌丟丐 = val_3;
+        label_3:
+        if((val_6 & 1) != 0)
+        {
+                this.丒上七丌业七丟与丐 = val_6.丐丏七丌丕丗业且上();
+            val_7 = 1;
+            this.丗丏丅丕丆世丁专丟 = val_7;
+            return (bool)val_7;
+        }
+        
+        this.一世丕丕业且且丅丌();
+        val_7 = 0;
+        mem2[0] = 0;
+        mem2[0] = 0;
+        mem2[0] = 0;
+        return (bool)val_7;
+        label_16:
+        val_7 = 0;
+        return (bool)val_7;
+    }
+    private void 一世丕丕业且且丅丌()
+    {
+        this.丗丏丅丕丆世丁专丟 = 0;
+        UnityEngine.XR.iOS.下丕丙丞丘丅丂丝丕.万三且三东东丁丁且(丙业与丙丗丝不丈东:  this.与业丕业业业丌丟丐);
+    }
+    private SimpleJSON.且丐上一丝业不专上 System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
+    {
+        return (SimpleJSON.且丐上一丝业不专上)this.丒上七丌业七丟与丐;
+    }
+    private void System.Collections.IEnumerator.Reset()
+    {
+        System.NotSupportedException val_1 = new System.NotSupportedException();
+    }
+    private object System.Collections.IEnumerator.get_Current()
+    {
+        return (object)this.丒上七丌业七丟与丐;
+    }
+    private System.Collections.Generic.IEnumerator<SimpleJSON.且丐上一丝业不专上> System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
+    {
+        if(this.丗丏丅丕丆世丁专丟 == 2)
+        {
+                if(this.丈世三丐万且丅上丈 == System.Environment.CurrentManagedThreadId)
+        {
+                this.丗丏丅丕丆世丁专丟 = 0;
+            return (System.Collections.Generic.IEnumerator<SimpleJSON.且丐上一丝业不专上>)this;
+        }
+        
+        }
+        
+        .丗丏丅丕丆世丁专丟 = 0;
+        .丈世三丐万且丅上丈 = System.Environment.CurrentManagedThreadId;
+        .丝且与丝丒丟万丁专 = this.丝且与丝丒丟万丁专;
+        this = new 丂丐丏七丅丝业丅专.丒一丑丞一丆丒丐东();
+        return (System.Collections.Generic.IEnumerator<SimpleJSON.且丐上一丝业不专上>)this;
+    }
+    private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+    {
+        return this.System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator();
+    }
+
+}

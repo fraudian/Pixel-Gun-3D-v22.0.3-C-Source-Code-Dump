@@ -1,0 +1,52 @@
+using UnityEngine;
+private sealed class LootBoxRewardsView_Roulette.不丑丅一业上丘丈万 : IEnumerator<object>, IEnumerator, IDisposable
+{
+    // Fields
+    private int 丗丏丅丕丆世丁专丟;
+    private object 丒上七丌业七丟与丐;
+    public LootBoxRewardsView_Roulette 丝且与丝丒丟万丁专;
+    private float 丝丆丄丝专丆世丈丝;
+    private bool 业丌丗丑且丟丒专丘;
+    
+    // Properties
+    private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
+    private object System.Collections.IEnumerator.Current { get; }
+    
+    // Methods
+    public LootBoxRewardsView_Roulette.不丑丅一业上丘丈万(int 丗丏丅丕丆世丁专丟)
+    {
+        this.丗丏丅丕丆世丁专丟 = 丗丏丅丕丆世丁专丟;
+    }
+    private void System.IDisposable.Dispose()
+    {
+    
+    }
+    private bool MoveNext()
+    {
+        int val_13;
+        if(this.丗丏丅丕丆世丁专丟 <= 4)
+        {
+                var val_12 = 106046480 + (this.丗丏丅丕丆世丁专丟) << 2;
+            val_12 = val_12 + 106046480;
+        }
+        else
+        {
+                val_13 = 0;
+            return (bool);
+        }
+    
+    }
+    private object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+    {
+        return (object)this.丒上七丌业七丟与丐;
+    }
+    private void System.Collections.IEnumerator.Reset()
+    {
+        System.NotSupportedException val_1 = new System.NotSupportedException();
+    }
+    private object System.Collections.IEnumerator.get_Current()
+    {
+        return (object)this.丒上七丌业七丟与丐;
+    }
+
+}

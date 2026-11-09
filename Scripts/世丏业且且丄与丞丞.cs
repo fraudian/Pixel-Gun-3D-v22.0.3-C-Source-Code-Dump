@@ -1,0 +1,17 @@
+using UnityEngine;
+private sealed class 丗丄丙丁丌业丅丒丕.世丏业且且丄与丞丞
+{
+    // Fields
+    public PGCompany.BattlePass.BPChallangesProgressForSeason 三丟东丕丄丄下下丑;
+    
+    // Methods
+    public 丗丄丙丁丌业丅丒丕.世丏业且且丄与丞丞()
+    {
+    
+    }
+    internal bool 丟丂丛丝丗丅丁丒丝(PGCompany.BattlePass.BPChallangesProgressForSeason 丒丒丄丁且丄丆丂丌)
+    {
+        return (bool)(丒丒丄丁且丄丆丂丌.SeasonId == this.三丟东丕丄丄下下丑.SeasonId) ? 1 : 0;
+    }
+
+}
